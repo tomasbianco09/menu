@@ -9,20 +9,19 @@ body {
 }
 
 body {
-    background-color: #efc5c5;
+    background-color: #0d0707;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #000;
-    margin: 0  8rem;
-    padding: 12rem 0 2rem 0;
+    margin: auto 18rem auto 18rem;
+    padding: 9rem 0 2rem 0;
 }
 
 .swiper {
-    width: 74%;
-    height: 650px;
+    width: 100%; /* Cambia el ancho al 100% */
+    height: 100%;
     justify-content: space-between;
-
-    /* margin-bottom: 5rem; */
+    margin-bottom: 5rem;
 }
 
 .swiper-wrapper {
@@ -38,11 +37,10 @@ body {
 }
 
 .swiper-slide {
-    height: 100%;
+    cursor: grabbing;
     text-align: center;
     font-size: 30px;
     background: #fff;
-    /* Center slide text vertically */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,7 +53,66 @@ body {
     object-fit: cover;
 }
 
-.swiper {
-    margin-left: auto;
-    margin-right: auto;
+.swiper-button-prev {
+    color: antiquewhite;
+}
+
+.swiper-button-next {
+    color: antiquewhite;
+}
+
+.swiper-pagination-bullet {
+    width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 8px));
+    height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 8px));
+    display: inline-block;
+    border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
+    background: #e8e8e8;
+    opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.2);
+}
+
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: white;
+}
+
+@media only screen and (max-width: 1440px) {
+    body {
+        margin: 0 8rem 0 8rem;
+        padding: 9rem 0 0rem 0;
+    }
+}
+
+
+/* @media only screen and (max-width: 1300px) {
+    body {
+        margin: 0 6rem 0 6rem;
+        padding: 9rem 0 0rem 0;
+    }
+} */
+
+
+@media only screen and (max-width: 1139px) {
+   body {
+        margin: 0 5rem 0 5rem;
+        padding: 9rem 0 0rem 0;
+    } 
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+        margin: 0 2rem;
+        padding: 9rem 0 0rem 0;
+    }
+}
+
+
+@media only screen and (max-width: 670px) {
+   
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        margin: 0 2rem;
+        padding: 9rem 0 0rem 0;
+    }
 }

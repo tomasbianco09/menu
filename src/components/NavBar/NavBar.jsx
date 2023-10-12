@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./NavBar.css";
 import { Link } from "react-scroll";
-import icon from "../../../public/2.png"
+import icon from "../../../public/Logo/4.png"
 
 function NavBar() {
   const [isActive, setIsActive] = useState(false);

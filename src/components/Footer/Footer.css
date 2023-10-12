@@ -1,0 +1,29 @@
+/* Footer */
+
+.foOter {
+    justify-content: center;
+    display: flex;
+    bottom: 0;
+    margin-top: 1rem;
+}
+
+.foOter footer {
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #777;
+    padding: 1rem 0 0rem 0;
+    margin: 1rem 0 0rem 0;
+    display: flex;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.footer span {
+    color: #777;
+}
+/* Fin Footer */
