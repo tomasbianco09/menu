@@ -13,8 +13,11 @@ body {
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #000;
-    margin: auto 18rem auto 18rem;
-    padding: 9rem 0 2rem 0;
+}
+
+.nosotros-seccion {
+    margin: auto 12rem auto 12rem;
+    padding: 9rem 0 0rem 0;
 }
 
 .swiper {
@@ -76,42 +79,31 @@ body {
 }
 
 @media only screen and (max-width: 1440px) {
-    body {
+    .nosotros-seccion {
         margin: 0 8rem 0 8rem;
-        padding: 9rem 0 0rem 0;
+        padding: 10rem 0 0rem 0;
     }
 }
 
-
-/* @media only screen and (max-width: 1300px) {
-    body {
-        margin: 0 6rem 0 6rem;
-        padding: 9rem 0 0rem 0;
-    }
-} */
-
-
 @media only screen and (max-width: 1139px) {
-   body {
+    .nosotros-seccion {
         margin: 0 5rem 0 5rem;
         padding: 9rem 0 0rem 0;
-    } 
+    }
 }
 
 @media only screen and (max-width: 1024px) {
-    body {
+    .nosotros-seccion {
         margin: 0 2rem;
         padding: 9rem 0 0rem 0;
     }
 }
 
 
-@media only screen and (max-width: 670px) {
-   
-}
+@media only screen and (max-width: 670px) {}
 
 @media only screen and (max-width: 500px) {
-    body {
+    .nosotros-seccion {
         margin: 0 2rem;
         padding: 9rem 0 0rem 0;
     }

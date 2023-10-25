@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./NavBar.css";
-import { Link } from "react-scroll";
+import { Link } from 'react-router-dom';
 import icon from "../../../public/Logo/4.png"
 
 function NavBar() {
@@ -25,21 +25,21 @@ function NavBar() {
           {/* <h2 className="nav-h2">TOMI</h2> */}
           <ul className="nav-ul">
             <li>
-              <Link to="home"
+              <Link to={"/"}
                 className="nav-items"
                 spy={true}
                 smooth={true}
                 offset={-100}
                 duration={500}
-              >HOME</Link>
+              ><span>HOME</span></Link>
             </li>
             <li>
-              <Link to="about"
+              <Link to={"/about"}
                 spy={true}
                 smooth={true}
                 offset={-100}
                 duration={500}
-              >ABOUT</Link>
+              ><span>ABOUT</span></Link>
             </li>
             <li>
               <Link to="projects"
