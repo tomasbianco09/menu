@@ -39,23 +39,23 @@ function NavBar() {
                 smooth={true}
                 offset={-100}
                 duration={500}
-              ><span>ABOUT</span></Link>
+              ><span>FOOD</span></Link>
             </li>
             <li>
-              <Link to="projects"
+              <Link to="drinks"
                 spy={true}
                 smooth={true}
                 offset={0}
                 duration={500}
-              >PROJECTS</Link>
+              >DRINKS</Link>
             </li>
             <li>
-              <Link to="contact"
+              <Link to="us"
                 spy={true}
                 smooth={true}
                 offset={0}
                 duration={500}
-              >CONTACT</Link>
+              >US</Link>
             </li>
           </ul>
           <div className="hamburger" onClick={handleHamburgerClick}>
@@ -66,17 +66,17 @@ function NavBar() {
         </nav>
       </header>
       <nav className={`mobile-nav ${isActive ? "active" : ""}`}>
-        <a href="#home" onClick={handleLinkClick}>
+        <Link to={"/"} onClick={handleLinkClick}>
           HOME
-        </a>
-        <a href="#about" onClick={handleLinkClick}>
-          ABOUT
-        </a>
+        </Link>
+        <Link to={"/about"} onClick={handleLinkClick}>
+          FOOD
+        </Link>
         <a href="#projects" onClick={handleLinkClick}>
-          PROJECTS
+          DRINKS
         </a>
         <a href="#contact" onClick={handleLinkClick}>
-          CONTACT
+          US
         </a>
       </nav>
     </>

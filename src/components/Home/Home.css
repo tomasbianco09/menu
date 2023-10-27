@@ -64,7 +64,6 @@
     height: 600px;
     background-color: #191919;
     font-family: "Poppins", sans-serif;
-
 }
 
 .about-container{
@@ -192,7 +191,8 @@
     }
 
     .about-image {
-        height: 400px;
+        height: 300px;
+        margin: 0 2rem 0 2rem;
     }
 
     .about-image img {
@@ -204,5 +204,25 @@
     .carousel-seccion {
         margin: 0 2rem;
         padding: 9rem 0 0rem 0;
+    }
+
+    .about-text {
+        width: 250px;
+    }
+
+    .about-text h3 {
+        width: 250px;
+
+    }
+
+
+    .about-text p {
+        margin: auto;
+        width: 250px;
+        font-size: 0.9rem;
+    }
+
+    .about-image {
+        height: 300px;
     }
 }
